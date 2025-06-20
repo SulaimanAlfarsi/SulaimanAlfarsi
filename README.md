@@ -1,5 +1,6 @@
-<h1 align="center">Hi 👋, I'm Sulaiman Alfarsi</h1>
-<h3 align="center">Full-Stack & Mobile Developer | Building Apps & Websites</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1000&center=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I'm+Sulaiman+Alfarsi" alt="Typing SVG" />
+</p><h3 align="center">Full-Stack & Mobile Developer | Building Apps & Websites</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sulaimanaalfarsi&label=Profile%20views&color=0e75b6&style=flat" alt="sulaimanaalfarsi" />
