@@ -68,6 +68,6 @@
 
 ### ⚡ Fun Fact
 
-> I love blending **design** and **code** to create apps that not only function but **delight users**.
+> I love blending **design** and **code** to create apps & websites that not only function but **delight users**.
 
 ---
