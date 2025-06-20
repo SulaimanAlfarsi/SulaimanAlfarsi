@@ -64,17 +64,7 @@
 
 ---
 
-### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sulaimanaalfarsi&show_icons=true&locale=en" alt="sulaimanaalfarsi" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sulaimanaalfarsi" alt="sulaimanaalfarsi" />
-</p>
-
----
 
 ### ⚡ Fun Fact
 
