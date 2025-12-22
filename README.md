@@ -19,7 +19,7 @@
 
 ---
 
-### 📫 Connect with Me
+### 📫 Connect With Me
 
 <p>
   <a href="https://twitter.com/sulaimanfarsi_" target="_blank">
