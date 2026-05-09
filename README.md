@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sulaimanaalfarsi&label=Profile%20Views&color=0e75b6&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=SulaimanAlfarsi&label=Profile%20Views&color=0e75b6&style=flat" />
   &nbsp;
   <a href="https://twitter.com/sulaimanfarsi_" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/>
@@ -71,7 +71,7 @@ I'm a passionate developer who enjoys transforming ideas into real-world digital
       &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="34"/>
       &nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="34"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="34"/>
       &nbsp;
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="34"/>
     </td>
@@ -81,7 +81,7 @@ I'm a passionate developer who enjoys transforming ideas into real-world digital
     <td>
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="34"/>
       &nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="34"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="34"/>
     </td>
   </tr>
   <tr>
@@ -127,9 +127,11 @@ I'm a passionate developer who enjoys transforming ideas into real-world digital
   &nbsp;&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SulaimanAlfarsi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165"/>
 </p>
+
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SulaimanAlfarsi&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
 </p>
+
 ---
 
 <p align="center">
