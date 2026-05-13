@@ -1,172 +1,175 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=700&lines=Hi+👋,+I'm+Sulaiman+Al+Farsi;Full-Stack+%26+Mobile+Developer;Building+Modern+Apps+%26+Digital+Products;React+%7C+Flutter+%7C+Node.js+%7C+AI" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,50:2563eb,100:14b8a6&text=Sulaiman%20Al-Farsi&fontAlign=50&fontAlignY=38&fontColor=ffffff&fontSize=44&desc=Full-Stack%20%26%20Mobile%20Developer%20from%20Oman&descAlign=50&descAlignY=62&animation=fadeIn" alt="Animated profile header" />
 </p>
 
 <p align="center">
-  <img src="space-shooter.gif" alt="Space Shooter Animation" />
-</p>
-
-<h3 align="center">🚀 Full-Stack & Mobile Developer</h3>
-
-<p align="center">
-  <em>Building scalable apps, smart platforms, and user-focused digital experiences.</em>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=850&lines=Building+Java+and+Spring+Boot+backends;Creating+React%2C+TypeScript%2C+and+JavaScript+frontends;Shipping+Flutter%2C+Dart%2C+and+mobile+experiences;Exploring+AI%2C+automation%2C+and+smart+platforms" alt="Typing animation" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SulaimanAlfarsi&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-  &nbsp;
-  <a href="https://twitter.com/sulaimanfarsi_" target="_blank">
-    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter" />
+  <img src="space-shooter.gif" alt="Space shooter animation" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/SulaimanAlfarsi">
+    <img src="https://img.shields.io/badge/GitHub-SulaimanAlfarsi-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
   </a>
-  <a href="https://www.linkedin.com/in/sulaiman-alfarsi-844019287/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/sulaiman-alfarsi-844019287/">
+    <img src="https://img.shields.io/badge/LinkedIn-Sulaiman%20Al--Farsi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
   </a>
-  <a href="https://instagram.com/suliman.alf" target="_blank">
-    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <a href="https://instagram.com/suliman.alf">
+    <img src="https://img.shields.io/badge/Instagram-suliman.alf-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram profile" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SulaimanAlfarsi&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Public%20Repos-31-14b8a6?style=flat-square&logo=github" alt="Public repositories: 31" />
+  <img src="https://img.shields.io/badge/Followers-14-38bdf8?style=flat-square&logo=github" alt="GitHub followers: 14" />
+  <img src="https://img.shields.io/badge/Following-15-f59e0b?style=flat-square&logo=github" alt="GitHub following: 15" />
+  <img src="https://img.shields.io/badge/Location-Oman-10b981?style=flat-square&logo=googlemaps&logoColor=white" alt="Location: Oman" />
 </p>
 
 ---
 
-## 👨‍💻 About Me
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:111827,100:1d4ed8&text=About%20Me&fontColor=ffffff&fontSize=28&animation=twinkling" alt="About me animated section" />
+</p>
 
-I'm a passionate developer who enjoys turning ideas into real-world digital products.  
-I focus on building clean, scalable, and user-friendly applications across **web**, **mobile**, and **smart platforms**.
+I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Codeline**. My public GitHub work is focused on practical applications across Java backends, web frontends, mobile apps, APIs, and data/AI experiments.
 
-- 🔭 Currently building **MSRA – Smart Tourism & Marketing Platform**
-- 🌱 Learning and improving in **Advanced Frontend, Mobile Development, Backend APIs, and AI**
-- 🎯 Goal: Build products that **solve real problems** and **feel great to use**
-- 💡 Interested in **tourism tech, smart platforms, automation, and AI-powered apps**
+- Current public GitHub snapshot: **31 repositories**, **14 followers**, **15 following**
+- Most active languages by public repository count: **Java**, **JavaScript**, **TypeScript**, **Jupyter Notebook**, **Dart**, **Go**, **Python**, and **CSS**
+- Recent work includes **The Complaint Desk**, **Spring Boot Demo**, **Portfolio2**, **Smart Commute Reminder**, **Tic Tac Toe**, and **Oman Gold API**
+- GitHub account created: **May 1, 2023**
+- Profile last updated on GitHub: **May 12, 2026**
 
 ---
 
-## 🧠 What I Build
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:0f766e,100:2563eb&text=What%20I%20Build&fontColor=ffffff&fontSize=28&animation=fadeIn" alt="What I build animated section" />
+</p>
 
-| Area | What I Work With |
+| Area | Real examples from my public GitHub |
 |---|---|
-| 📱 Mobile Apps | Flutter, Dart, Android |
-| 🌐 Web Apps | React, TypeScript, Tailwind CSS |
-| 🖥 Backend APIs | Node.js, Express, REST APIs |
-| 🤖 AI Features | Recommendations, ML ideas, smart systems |
-| 🎨 UI/UX | Clean interfaces, responsive layouts, design-driven apps |
+| Backend systems | Java apps, Spring Boot demos, complaint/ticket desk projects, commute automation |
+| Frontend apps | Portfolio sites, JavaScript interfaces, CSS product pages, browser games |
+| Full-stack APIs | TypeScript and Go API projects using MongoDB, PostgreSQL, Fiber, and service-style backends |
+| Mobile experiences | Flutter/Dart work through the Rahaal repository |
+| Data and AI practice | Jupyter Notebook and Python repositories for data science and experimentation |
 
 ---
 
-## 🛠 Tech Stack
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:1e293b,100:0f766e&text=Tech%20Stack&fontColor=ffffff&fontSize=28&animation=twinkling" alt="Tech stack animated section" />
+</p>
 
 ### Languages
 
 <p>
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="Dart" src="https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img alt="C Sharp" src="https://img.shields.io/badge/-C%23-68217A?style=flat-square&logo=csharp&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
 </p>
 
-### Frontend
+### Frameworks and Tools
 
 <p>
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-  <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />
-  <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
-  <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=flat-square&logo=styled-components&logoColor=white" />
-</p>
-
-### Backend & APIs
-
-<p>
-  <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
-  <img alt="Express" src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white" />
-  <img alt="NestJs" src="https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white" />
-  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
-  <img alt="Apollo" src="https://img.shields.io/badge/-Apollo%20GraphQL-311C87?style=flat-square&logo=apollo-graphql&logoColor=white" />
-  <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=insomnia&logoColor=white" />
-</p>
-
-### Mobile
-
-<p>
-  <img alt="Flutter" src="https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-  <img alt="Android" src="https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
-</p>
-
-### Databases & Cloud
-
-<p>
-  <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img alt="Firebase" src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-  <img alt="Google Cloud Platform" src="https://img.shields.io/badge/-Google_Cloud_Platform-1a73e8?style=flat-square&logo=google-cloud&logoColor=white" />
-  <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
-</p>
-
-### Tools & Workflow
-
-<p>
-  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
-  <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" />
-  <img alt="Rollup" src="https://img.shields.io/badge/-Rollup-EC4A3F?style=flat-square&logo=rollup.js&logoColor=white" />
-  <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black" />
-  <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-</p>
-
-### Exploring / Learning
-
-<p>
-  <img alt="Angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
-  <img alt="RxJs" src="https://img.shields.io/badge/-RxJs-B7178C?style=flat-square&logo=reactivex&logoColor=white" />
-  <img alt="D3.js" src="https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white" />
+  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=0f172a" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---
 
-## 🚀 Featured Focus
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:312e81,100:0891b2&text=Featured%20Repositories&fontColor=ffffff&fontSize=28&animation=fadeIn" alt="Featured repositories animated section" />
+</p>
 
-### MSRA – Smart Tourism & Marketing Platform
-
-A smart platform focused on tourism, digital experiences, and intelligent recommendations.
-
-**Main ideas:**
-
-- Explore tourism places and services
-- Support Arabic and English users
-- Build a modern web/mobile experience
-- Use smart recommendations and AI features
-- Help users discover useful places and experiences
+| Repository | Main language | Focus |
+|---|---:|---|
+| [The-Complaint-Desk](https://github.com/SulaimanAlfarsi/The-Complaint-Desk) | Java | Complaint desk application |
+| [spring-boot-demo](https://github.com/SulaimanAlfarsi/spring-boot-demo) | Java | Spring Boot API practice |
+| [Smart-Commute-Reminder](https://github.com/SulaimanAlfarsi/Smart-Commute-Reminder) | Java | Commute monitoring and notification logic |
+| [oman-gold-api](https://github.com/SulaimanAlfarsi/oman-gold-api) | TypeScript | API project for gold-related data |
+| [full-stack-golang-postgres](https://github.com/SulaimanAlfarsi/full-stack-golang-postgres) | TypeScript | Full-stack Go/PostgreSQL practice |
+| [Rahaal](https://github.com/SulaimanAlfarsi/Rahaal) | Dart | Flutter mobile app work |
+| [Tic-Tac-Toe](https://github.com/SulaimanAlfarsi/Tic-Tac-Toe) | JavaScript | Interactive browser game |
+| [nasa-hack](https://github.com/SulaimanAlfarsi/nasa-hack) | JavaScript | Hackathon-style web project |
 
 ---
 
-## 📊 GitHub Stats
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:0f172a,100:7c3aed&text=Repository%20Language%20Mix&fontColor=ffffff&fontSize=28&animation=twinkling" alt="Language mix animated section" />
+</p>
+
+| Language | Public repository count |
+|---|---:|
+| Java | 11 |
+| JavaScript | 8 |
+| TypeScript | 3 |
+| Jupyter Notebook | 2 |
+| CSS | 1 |
+| Dart | 1 |
+| Go | 1 |
+| Python | 1 |
+| No primary language detected | 3 |
+
+---
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SulaimanAlfarsi&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:1f2937,100:2563eb&text=GitHub%20Stats&fontColor=ffffff&fontSize=28&animation=fadeIn" alt="GitHub stats animated section" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SulaimanAlfarsi&theme=tokyonight" alt="GitHub Profile Details" />
+  <img src="https://github-profile-trophy.vercel.app/?username=SulaimanAlfarsi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SulaimanAlfarsi&theme=tokyonight" height="165" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SulaimanAlfarsi&theme=tokyonight" height="165" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SulaimanAlfarsi&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub streak stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SulaimanAlfarsi&theme=tokyonight" alt="GitHub profile details" />
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SulaimanAlfarsi&theme=tokyonight" alt="GitHub summary stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SulaimanAlfarsi&theme=tokyonight" alt="Repositories per language" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SulaimanAlfarsi&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 </p>
 
 ---
 
-## 🌱 Currently Improving
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:134e4a,100:1d4ed8&text=Currently%20Improving&fontColor=ffffff&fontSize=28&animation=twinkling" alt="Currently improving animated section" />
+</p>
 
 ```txt
-Frontend Architecture
-Mobile App Development
-Backend API Design
-AI-Powered Features
-Clean Code & Product Thinking
+Java backend design       Spring Boot APIs        Clean service architecture
+React and TypeScript      Portfolio interfaces   Responsive frontend systems
+Flutter and Dart          Mobile workflows       Product-focused UI
+Automation and AI         Smart alerts           Practical developer tooling
+```
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2600&pause=800&color=14B8A6&center=true&vCenter=true&width=760&lines=Thanks+for+visiting+my+GitHub+profile;Explore+my+repositories+and+recent+work;Always+building%2C+learning%2C+and+shipping" alt="Footer typing animation" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:14b8a6,50:2563eb,100:0f172a&animation=fadeIn" alt="Animated footer wave" />
+</p>
