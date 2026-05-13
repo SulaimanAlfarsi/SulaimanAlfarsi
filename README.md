@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,50:2563eb,100:14b8a6&text=Sulaiman%20Al-Farsi&fontAlign=50&fontAlignY=38&fontColor=ffffff&fontSize=44&desc=Full-Stack%20%26%20Mobile%20Developer%20from%20Oman&descAlign=50&descAlignY=62&animation=fadeIn" alt="Animated profile header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&duration=3000&pause=700&color=38BDF8&center=true&vCenter=true&width=900&height=90&lines=Sulaiman+Al-Farsi;Full-Stack+%26+Mobile+Developer+from+Oman;Building+Backend%2C+Web%2C+Mobile+%26+Smart+Apps" alt="Animated profile header" />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:111827,100:1d4ed8&text=About%20Me&fontColor=ffffff&fontSize=28&animation=twinkling" alt="About me animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=About+Me" alt="About me animated title" />
 </p>
 
 I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Codeline**. My public GitHub work is focused on practical applications across Java backends, web frontends, mobile apps, APIs, and data/AI experiments.
@@ -47,7 +47,7 @@ I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Cod
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:0f766e,100:2563eb&text=What%20I%20Build&fontColor=ffffff&fontSize=28&animation=fadeIn" alt="What I build animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=14B8A6&center=true&vCenter=true&width=700&height=60&lines=What+I+Build" alt="What I build animated title" />
 </p>
 
 | Area | Real examples from my public GitHub |
@@ -61,7 +61,7 @@ I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Cod
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:1e293b,100:0f766e&text=Tech%20Stack&fontColor=ffffff&fontSize=28&animation=twinkling" alt="Tech stack animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=Tech+Stack" alt="Tech stack animated title" />
 </p>
 
 ### Languages
@@ -92,7 +92,7 @@ I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Cod
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:312e81,100:0891b2&text=Featured%20Repositories&fontColor=ffffff&fontSize=28&animation=fadeIn" alt="Featured repositories animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=14B8A6&center=true&vCenter=true&width=700&height=60&lines=Featured+Repositories" alt="Featured repositories animated title" />
 </p>
 
 | Repository | Main language | Focus |
@@ -109,7 +109,7 @@ I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Cod
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:0f172a,100:7c3aed&text=Repository%20Language%20Mix&fontColor=ffffff&fontSize=28&animation=twinkling" alt="Language mix animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=Repository+Language+Mix" alt="Repository language mix animated title" />
 </p>
 
 | Language | Public repository count |
@@ -127,7 +127,7 @@ I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Cod
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:1f2937,100:2563eb&text=GitHub%20Stats&fontColor=ffffff&fontSize=28&animation=fadeIn" alt="GitHub stats animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=14B8A6&center=true&vCenter=true&width=700&height=60&lines=GitHub+Stats" alt="GitHub stats animated title" />
 </p>
 
 <p align="center">
@@ -154,22 +154,18 @@ I am **Sulaiman Al-Farsi**, a developer based in **Oman** and working with **Cod
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=70&color=0:134e4a,100:1d4ed8&text=Currently%20Improving&fontColor=ffffff&fontSize=28&animation=twinkling" alt="Currently improving animated section" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=700&height=60&lines=Recent+GitHub+Activity" alt="Recent GitHub activity animated title" />
 </p>
 
-```txt
-Java backend design       Spring Boot APIs        Clean service architecture
-React and TypeScript      Portfolio interfaces   Responsive frontend systems
-Flutter and Dart          Mobile workflows       Product-focused UI
-Automation and AI         Smart alerts           Practical developer tooling
-```
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<p align="center">
+  <em>&#9889; I love blending <strong>design + code</strong> to build products that are not just functional, but memorable.</em>
+</p>
 
 ---
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2600&pause=800&color=14B8A6&center=true&vCenter=true&width=760&lines=Thanks+for+visiting+my+GitHub+profile;Explore+my+repositories+and+recent+work;Always+building%2C+learning%2C+and+shipping" alt="Footer typing animation" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:14b8a6,50:2563eb,100:0f172a&animation=fadeIn" alt="Animated footer wave" />
 </p>
