@@ -137,7 +137,7 @@ motto:       "Building backend systems, AI-driven workflows, and useful digital 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SulaimanAlfarsi&theme=tokyo-night&hide_border=true&area=true&color=38BDF8&line=14B8A6&point=ffffff" alt="Contribution graph" />
+  <img src="https://ghchart.rshah.org/38BDF8/SulaimanAlfarsi" width="100%" alt="Contribution graph" />
 </p>
 
 <!-- ============ ACTIVITY ============ -->
