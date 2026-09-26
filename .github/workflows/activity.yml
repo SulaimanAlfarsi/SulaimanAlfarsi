@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build activity list from GitHub events
+      - name: Build activity table from GitHub events
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: SulaimanAlfarsi
@@ -33,71 +33,65 @@ jobs:
                        "Accept": "application/vnd.github+json"})
           events = json.load(urllib.request.urlopen(req))
 
-          def link(repo):
-              return f"[{repo}](https://github.com/{repo})"
+          def short(repo):
+              """Own repos show bare name; others keep the owner prefix."""
+              owner, name = repo.split("/", 1)
+              return name if owner.lower() == user.lower() else repo
 
-          def ago(ts):
-              d = datetime.now(timezone.utc) - datetime.fromisoformat(ts.replace("Z", "+00:00"))
-              h = int(d.total_seconds() // 3600)
-              if h < 1: return "just now"
-              if h < 24: return f"{h}h ago"
-              return f"{h // 24}d ago"
+          def when(ts):
+              return datetime.fromisoformat(ts.replace("Z", "+00:00")).strftime("%b %d")
 
-          # The events API no longer returns html_url on nested objects,
-          # so build every link from the repo name + number ourselves.
-          def ref_link(repo, kind, number):
-              return f"[#{number}](https://github.com/{repo}/{kind}/{number})"
-
-          lines, seen = [], set()
+          rows, seen = [], set()
           for e in events:
-              repo = e["repo"]["name"]
+              repo, t, p = e["repo"]["name"], e["type"], e.get("payload", {})
               if repo.lower() == f"{user}/{user}".lower():
                   continue  # skip the profile repo itself (bot commits)
-              t, p = e["type"], e.get("payload", {})
-              msg = None
+              # The events API no longer returns html_url on nested objects,
+              # so every link is built from the repo name + number instead.
+              n = (p.get("pull_request") or {}).get("number") or p.get("number")
+              base = f"https://github.com/{repo}"
               if t == "PushEvent":
                   # payload.size / payload.commits were removed from this API,
-                  # so report the branch instead of a commit count.
-                  branch = (p.get("ref") or "").replace("refs/heads/", "")
-                  key = ("push", repo, branch)
-                  if key in seen: continue
-                  seen.add(key)
-                  where = f"`{branch}` on {link(repo)}" if branch else link(repo)
-                  msg = f"⬆️ Pushed to {where}"
-              elif t == "CreateEvent" and p.get("ref_type") == "repository":
-                  msg = f"🆕 Created repository {link(repo)}"
+                  # so no commit count is available to show.
+                  kind, icon, what, url = "push", "⬆️", "Pushed", base
               elif t == "PullRequestEvent":
-                  pr = p.get("pull_request") or {}
-                  n = p.get("number") or pr.get("number")
                   action = p.get("action", "")
+                  pr = p.get("pull_request") or {}
                   if action == "closed" and (pr.get("merged") or pr.get("merged_at")):
                       action = "merged"
-                  msg = f"🔀 {action.capitalize()} PR {ref_link(repo, 'pull', n)} in {link(repo)}"
+                  kind, icon = ("pr", n), "🔀"
+                  what, url = f"{action.capitalize()} PR #{n}", f"{base}/pull/{n}"
               elif t == "PullRequestReviewEvent":
-                  pr = p.get("pull_request") or {}
-                  n = pr.get("number") or p.get("number")
-                  key = ("review", repo, n)
-                  if key in seen: continue
-                  seen.add(key)
-                  msg = f"🔍 Reviewed PR {ref_link(repo, 'pull', n)} in {link(repo)}"
+                  kind, icon, what, url = ("review", n), "🔍", f"Reviewed PR #{n}", f"{base}/pull/{n}"
               elif t == "IssuesEvent":
                   i = p.get("issue") or {}
-                  n = i.get("number") or p.get("number")
-                  msg = f"🐛 {p.get('action','').capitalize()} issue {ref_link(repo, 'issues', n)} in {link(repo)}"
+                  n = i.get("number") or n
+                  kind, icon = ("issue", n), "🐛"
+                  what, url = f"{p.get('action','').capitalize()} issue #{n}", f"{base}/issues/{n}"
               elif t == "ReleaseEvent":
-                  r = p.get("release") or {}
-                  tag = r.get("tag_name")
-                  msg = f"🚀 Released [{tag}](https://github.com/{repo}/releases/tag/{tag}) in {link(repo)}"
-              elif t == "WatchEvent":
-                  msg = f"⭐ Starred {link(repo)}"
+                  tag = (p.get("release") or {}).get("tag_name")
+                  kind, icon = ("release", tag), "🚀"
+                  what, url = f"Released {tag}", f"{base}/releases/tag/{tag}"
+              elif t == "CreateEvent" and p.get("ref_type") == "repository":
+                  kind, icon, what, url = "new", "🆕", "Created repo", base
               elif t == "ForkEvent":
-                  msg = f"🍴 Forked {link(repo)}"
-              if msg:
-                  lines.append(f"{len(lines)+1}. {msg} — <sub>{ago(e['created_at'])}</sub>")
-              if len(lines) >= 8:
+                  kind, icon, what, url = "fork", "🍴", "Forked", base
+              else:
+                  continue  # ignores stars and everything else not worth a row
+              key = (kind, repo)
+              if key in seen:
+                  continue
+              seen.add(key)
+              rows.append(f"| {icon} | {what} | [`{short(repo)}`]({url}) | {when(e['created_at'])} |")
+              if len(rows) >= 7:
                   break
 
-          body = "\n".join(lines) if lines else "_No recent public activity._"
+          if rows:
+              body = "\n".join(["| | Activity | Repository | When |",
+                                "|:-:|---|---|--:|"] + rows)
+          else:
+              body = "_No recent public activity._"
+
           readme = open("README.md", encoding="utf-8").read()
           new, count = re.subn(r"(<!--START_SECTION:activity-->).*?(<!--END_SECTION:activity-->)",
                                lambda m: f"{m.group(1)}\n{body}\n{m.group(2)}", readme, flags=re.S)
