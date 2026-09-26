@@ -136,9 +136,6 @@ motto:       "Building backend systems, AI-driven workflows, and useful digital 
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SulaimanAlfarsi&theme=tokyonight" alt="Repositories per language" />
 </p>
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/38BDF8/SulaimanAlfarsi" width="100%" alt="Contribution graph" />
-</p>
 
 <!-- ============ ACTIVITY ============ -->
 ## ⚡ Recent Activity
