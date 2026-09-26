@@ -1,6 +1,6 @@
 <!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:14B8A6&height=210&section=header&text=Sulaiman%20Al-Farsi&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Backend%20Developer%20%E2%80%A2%20AI%20%26%20Data%20Enthusiast&descSize=18&descAlignY=58&animation=fadeIn" alt="Header banner" />
+  <img src="header.svg" width="100%" alt="Sulaiman Al-Farsi — Backend Developer" />
 </p>
 
 <p align="center">
@@ -148,5 +148,5 @@ motto:       "Building backend systems, AI-driven workflows, and useful digital 
 
 <!-- ============ FOOTER ============ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,100:0EA5E9&height=120&section=footer" alt="Footer banner" />
+  <img src="footer.svg" width="100%" alt="Footer banner" />
 </p>
