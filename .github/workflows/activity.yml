@@ -1,0 +1,90 @@
+name: Update Recent Activity
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"   # every 4 hours
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build activity list from GitHub events
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: SulaimanAlfarsi
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.request
+          from datetime import datetime, timezone
+
+          user = os.environ["GH_USER"]
+          req = urllib.request.Request(
+              f"https://api.github.com/users/{user}/events/public?per_page=100",
+              headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                       "Accept": "application/vnd.github+json"})
+          events = json.load(urllib.request.urlopen(req))
+
+          def link(repo):
+              return f"[{repo}](https://github.com/{repo})"
+
+          def ago(ts):
+              d = datetime.now(timezone.utc) - datetime.fromisoformat(ts.replace("Z", "+00:00"))
+              h = int(d.total_seconds() // 3600)
+              if h < 1: return "just now"
+              if h < 24: return f"{h}h ago"
+              return f"{h // 24}d ago"
+
+          lines, seen = [], set()
+          for e in events:
+              repo = e["repo"]["name"]
+              if repo.lower() == f"{user}/{user}".lower():
+                  continue  # skip the profile repo itself (bot commits)
+              t, p = e["type"], e.get("payload", {})
+              msg = None
+              if t == "PushEvent":
+                  n = p.get("size") or len(p.get("commits", []) or [])
+                  key = ("push", repo)
+                  if key in seen: continue
+                  seen.add(key)
+                  msg = f"⬆️ Pushed {n} commit{'s' if n != 1 else ''} to {link(repo)}" if n else f"⬆️ Pushed to {link(repo)}"
+              elif t == "CreateEvent" and p.get("ref_type") == "repository":
+                  msg = f"🆕 Created repository {link(repo)}"
+              elif t == "PullRequestEvent":
+                  pr = p.get("pull_request", {})
+                  action = "Merged" if pr.get("merged") else p.get("action", "").capitalize()
+                  msg = f"🔀 {action} PR [#{pr.get('number')}]({pr.get('html_url')}) in {link(repo)}"
+              elif t == "IssuesEvent":
+                  i = p.get("issue", {})
+                  msg = f"🐛 {p.get('action','').capitalize()} issue [#{i.get('number')}]({i.get('html_url')}) in {link(repo)}"
+              elif t == "ReleaseEvent":
+                  r = p.get("release", {})
+                  msg = f"🚀 Released [{r.get('tag_name')}]({r.get('html_url')}) in {link(repo)}"
+              elif t == "WatchEvent":
+                  msg = f"⭐ Starred {link(repo)}"
+              elif t == "ForkEvent":
+                  msg = f"🍴 Forked {link(repo)}"
+              if msg:
+                  lines.append(f"{len(lines)+1}. {msg} — <sub>{ago(e['created_at'])}</sub>")
+              if len(lines) >= 8:
+                  break
+
+          body = "\n".join(lines) if lines else "_No recent public activity._"
+          readme = open("README.md", encoding="utf-8").read()
+          new = re.sub(r"(<!--START_SECTION:activity-->).*?(<!--END_SECTION:activity-->)",
+                       lambda m: f"{m.group(1)}\n{body}\n{m.group(2)}", readme, flags=re.S)
+          open("README.md", "w", encoding="utf-8").write(new)
+          print(body)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "chore: update recent activity" && git push)
