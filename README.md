@@ -1,124 +1,131 @@
+<!-- ============ HEADER ============ -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=34&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=900&height=90&lines=Hi%2C+I'm+Sulaiman+Al-Farsi;Software+Engineering+Graduate;Backend+Developer+%7C+AI+%26+Data+Enthusiast" alt="Typing intro" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:14B8A6&height=210&section=header&text=Sulaiman%20Al-Farsi&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Backend%20Developer%20%E2%80%A2%20AI%20%26%20Data%20Enthusiast&descSize=18&descAlignY=58&animation=fadeIn" alt="Header banner" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=720&height=50&lines=Software+Engineering+Graduate+%F0%9F%8E%93;Building+backend+systems+%26+REST+APIs+%E2%9A%99%EF%B8%8F;Shipping+AI-driven+products+from+Oman+%F0%9F%87%B4%F0%9F%87%B2" alt="Typing intro" />
+</p>
+
+<p align="center">
+  <a href="https://sulaiman.msra.om"><img src="https://img.shields.io/badge/Portfolio-sulaiman.msra.om-14B8A6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/sulaiman-alfarsi-844019287/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:sulaimanalfarsi26@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=SulaimanAlfarsi&label=Profile%20Views&color=0EA5E9&style=flat-square" alt="Profile views" />
+  <img src="https://img.shields.io/badge/📍%20Muscat-Oman-10B981?style=flat-square" alt="Muscat, Oman" />
+  <img src="https://img.shields.io/badge/Open%20to-Opportunities-F59E0B?style=flat-square" alt="Open to opportunities" />
 </p>
 
 <p align="center">
   <img src="space-shooter.gif" alt="Space shooter animation" />
 </p>
 
-<p align="center">
-  <a href="mailto:sulaimanalfarsi26@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sulaimanalfarsi26%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/SulaimanAlfarsi">
-    <img src="https://img.shields.io/badge/GitHub-SulaimanAlfarsi-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
-  </a>
-  <a href="https://www.linkedin.com/in/sulaiman-alfarsi-844019287/">
-    <img src="https://img.shields.io/badge/LinkedIn-Sulaiman%20Al--Farsi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
-  </a>
-  <a href="https://sulaiman.msra.om">
-    <img src="https://img.shields.io/badge/Portfolio-sulaiman.msra.om-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio website" />
-  </a>
+<!-- ============ ABOUT ============ -->
+## 👨‍💻 About Me
+
+```yaml
+name:        Sulaiman Al-Farsi
+based_in:    Muscat, Oman 🇴🇲
+education:   BTech Software Engineering
+currently:   Java Spring Boot training — Tamayuz Program @ Codeline
+focus:       [Backend Systems, REST APIs, AI Automation, Data, Scalable Architecture]
+achievement: 🏆 Winner — Second Annual Student-Led Startup Forum 2026 (with MSRA)
+motto:       "Building backend systems, AI-driven workflows, and useful digital products."
+```
+
+<!-- ============ PROJECTS ============ -->
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧭 <a href="https://msra.om/">MSRA</a></h3>
+      <p>AI-powered tourism platform for smart travel experiences and tourism marketing in Oman. 🏆 Startup Forum 2026 winner.</p>
+      <img src="https://img.shields.io/badge/AI-8B5CF6?style=flat-square" />
+      <img src="https://img.shields.io/badge/Tourism-0EA5E9?style=flat-square" />
+      <br/><br/>
+      <a href="https://msra.om/"><img src="https://img.shields.io/badge/Live%20Site-→-14B8A6?style=for-the-badge" alt="Visit MSRA" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎨 <a href="https://riwaq-art.vercel.app/">Riwaq Art</a> <sup>NEW</sup></h3>
+      <p>Bilingual (English / Arabic) digital art gallery where culture meets digital creativity — curated collections and the stories behind each piece.</p>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+      <br/><br/>
+      <a href="https://riwaq-art.vercel.app/"><img src="https://img.shields.io/badge/Live%20Site-→-14B8A6?style=for-the-badge" alt="Visit Riwaq Art" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌸 <a href="https://www.athrist.com/">Athrist Parfums</a> <sup>NEW</sup></h3>
+      <p>Online storefront for a handcrafted luxury perfume house — product showcase, brand story, and shipping & refund flows.</p>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+      <br/><br/>
+      <a href="https://www.athrist.com/"><img src="https://img.shields.io/badge/Live%20Site-→-14B8A6?style=for-the-badge" alt="Visit Athrist" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🪙 <a href="https://oman-gold-api.vercel.app/">Oman Gold API</a></h3>
+      <p>Real-time gold pricing API and dashboard with database integration.</p>
+      <img src="https://img.shields.io/badge/REST%20API-2563EB?style=flat-square" />
+      <img src="https://img.shields.io/badge/Database-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+      <br/><br/>
+      <a href="https://oman-gold-api.vercel.app/"><img src="https://img.shields.io/badge/Live%20Site-→-14B8A6?style=for-the-badge" alt="Visit Oman Gold API" /></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎟️ <a href="https://unitedom.net/">UnitedOM</a></h3>
+      <p>Event management and experiences platform.</p>
+      <img src="https://img.shields.io/badge/Events-F59E0B?style=flat-square" />
+      <br/><br/>
+      <a href="https://unitedom.net/"><img src="https://img.shields.io/badge/Live%20Site-→-14B8A6?style=for-the-badge" alt="Visit UnitedOM" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://www.tickingthreat.com/">TickingThreat</a></h3>
+      <p>Cybersecurity awareness platform for interactive security education.</p>
+      <img src="https://img.shields.io/badge/Cybersecurity-EF4444?style=flat-square" />
+      <br/><br/>
+      <a href="https://www.tickingthreat.com/"><img src="https://img.shields.io/badge/Live%20Site-→-14B8A6?style=for-the-badge" alt="Visit TickingThreat" /></a>
+    </td>
+  </tr>
+</table>
+
+<!-- ============ TECH STACK ============ -->
+## 🛠️ Tech Stack
+
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=java,js,ts,py,go,dart,cs,bash&perline=8" alt="Languages" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=SulaimanAlfarsi&label=Profile%20Views&color=2563eb&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Muscat-Oman-10B981?style=flat-square&logo=googlemaps&logoColor=white" alt="Muscat, Oman" />
-  <img src="https://img.shields.io/badge/Focus-Backend%20%7C%20AI%20%7C%20Data-38BDF8?style=flat-square" alt="Backend, AI, and data focus" />
+**Frontend & Mobile**
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,react,nextjs,flutter&perline=8" alt="Frontend and mobile" />
+  <br/>
+  <img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=0f172a" alt="GSAP" />
 </p>
 
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=55&lines=About+Me" alt="About me title" />
+**Backend & Databases**
+<p>
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,postgres,mongodb,supabase,firebase&perline=8" alt="Backend and databases" />
 </p>
 
-I'm a **BTech Software Engineering graduate** from **Muscat, Oman**, focused on building practical software with strong backend foundations and modern user experiences.
-
-- Currently training in **Java Spring Boot** through the **Tamayuz Program at Codeline**
-- Interested in **backend systems**, **REST APIs**, **AI automation**, **data**, and **scalable architecture**
-- Experienced with **Flutter**, **Python**, **Golang**, **JavaScript**, **React**, **SQL**, **PostgreSQL**, **MongoDB**, and **Docker**
-- Winner of the **Second Annual Student-Led Startup Forum 2026** with **MSRA**
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=1000&color=14B8A6&center=true&vCenter=true&width=700&height=55&lines=Tech+Stack" alt="Tech stack title" />
+**Tools, Design & AI**
+<p>
+  <img src="https://skillicons.dev/icons?i=git,docker,vercel,postman,vscode,androidstudio,figma,tensorflow&perline=8" alt="Tools, design and AI" />
+  <br/>
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
+  <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm" />
+  <img src="https://img.shields.io/badge/REST%20APIs-2563EB?style=flat-square" alt="REST APIs" />
 </p>
 
-### Languages
-
-<p align="center">
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" />
-  <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" />
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
-</p>
-
-### Frontend and Mobile
-
-<p align="center">
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=0f172a" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img alt="Framer Motion" src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
-  <img alt="GSAP" src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=0f172a" />
-  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-</p>
-
-### Backend and Databases
-
-<p align="center">
-  <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-  <img alt="REST APIs" src="https://img.shields.io/badge/REST%20APIs-2563EB?style=flat-square" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-</p>
-
-### Tools, Design, and AI
-
-<p align="center">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img alt="npm" src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
-  <img alt="VS Code" src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-  <img alt="Android Studio" src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white" />
-  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img alt="n8n" src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=55&lines=Featured+Work" alt="Featured work title" />
-</p>
-
-| Project | What it is |
-|---|---|
-| [MSRA](https://www.msra.om/) | AI-powered tourism platform for smart travel experiences and tourism marketing in Oman. |
-| [Oman Gold API](https://oman-gold-api.vercel.app/) | Real-time gold pricing API and dashboard with database integration. |
-| [UnitedOM](https://unitedom.net/) | Event management and experiences platform. |
-| [TickingThreat](https://www.tickingthreat.com/) | Cybersecurity awareness platform for interactive security education. |
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=1000&color=14B8A6&center=true&vCenter=true&width=700&height=55&lines=GitHub+Stats" alt="GitHub stats title" />
-</p>
+<!-- ============ STATS ============ -->
+## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SulaimanAlfarsi&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8" alt="GitHub streak stats" />
@@ -129,15 +136,17 @@ I'm a **BTech Software Engineering graduate** from **Muscat, Oman**, focused on 
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SulaimanAlfarsi&theme=tokyonight" alt="Repositories per language" />
 </p>
 
----
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=55&lines=Recent+GitHub+Activity" alt="Recent GitHub activity title" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SulaimanAlfarsi&theme=tokyo-night&hide_border=true&area=true&color=38BDF8&line=14B8A6&point=ffffff" alt="Contribution graph" />
 </p>
+
+<!-- ============ ACTIVITY ============ -->
+## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
+<!-- ============ FOOTER ============ -->
 <p align="center">
-  <em>Building backend systems, AI-driven workflows, and useful digital products.</em>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,100:0EA5E9&height=120&section=footer" alt="Footer banner" />
 </p>
