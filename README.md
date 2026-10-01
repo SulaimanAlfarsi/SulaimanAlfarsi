@@ -149,7 +149,6 @@ motto:       "Building backend systems, AI-driven workflows, and useful digital 
 | 🔍 | Reviewed PR #798 | [`CodelineAtyab/AgileOraclesExperimentProject`](https://github.com/CodelineAtyab/AgileOraclesExperimentProject/pull/798) | Sep 02 |
 | ⬆️ | Pushed | [`CodelineAtyab/AgileOraclesExperimentProject`](https://github.com/CodelineAtyab/AgileOraclesExperimentProject) | Sep 01 |
 | 🔍 | Reviewed PR #773 | [`CodelineAtyab/AgileOraclesExperimentProject`](https://github.com/CodelineAtyab/AgileOraclesExperimentProject/pull/773) | Sep 01 |
-| 🔀 | Merged PR #1 | [`oman-gold-api`](https://github.com/SulaimanAlfarsi/oman-gold-api/pull/1) | Sep 01 |
 <!--END_SECTION:activity-->
 
 <!-- ============ FOOTER ============ -->
