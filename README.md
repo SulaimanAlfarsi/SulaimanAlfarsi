@@ -145,7 +145,6 @@ motto:       "Building backend systems, AI-driven workflows, and useful digital 
 |:-:|---|---|--:|
 | ⬆️ | Pushed | [`Oracle-EBS`](https://github.com/SulaimanAlfarsi/Oracle-EBS) | Sep 30 |
 | ⬆️ | Pushed | [`oman-gold-api`](https://github.com/SulaimanAlfarsi/oman-gold-api) | Sep 07 |
-| 🔀 | Opened PR #38 | [`CodelineAtyab/AgileOraclesEvalutaionArea`](https://github.com/CodelineAtyab/AgileOraclesEvalutaionArea/pull/38) | Sep 03 |
 <!--END_SECTION:activity-->
 
 <!-- ============ FOOTER ============ -->
