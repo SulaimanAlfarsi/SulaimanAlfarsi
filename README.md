@@ -143,7 +143,7 @@ motto:       "Building backend systems, AI-driven workflows, and useful digital 
 <!--START_SECTION:activity-->
 | | Activity | Repository | When |
 |:-:|---|---|--:|
-| ⬆️ | Pushed | [`Oracle-EBS`](https://github.com/SulaimanAlfarsi/Oracle-EBS) | Sep 30 |
+| ⬆️ | Pushed | [`Oracle-EBS`](https://github.com/SulaimanAlfarsi/Oracle-EBS) | Oct 05 |
 | ⬆️ | Pushed | [`oman-gold-api`](https://github.com/SulaimanAlfarsi/oman-gold-api) | Sep 07 |
 <!--END_SECTION:activity-->
 
